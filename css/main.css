@@ -1,0 +1,45 @@
+.navbar-brand{
+	background: url("../images/logo fale.gif") no-repeat;
+	width: 200px;
+    height: 66px;
+
+
+ body{
+   	background: url("../images/base.jpg") no-repeat;
+	background-size: cover;
+   }
+	
+   
+}
+img{
+	max-width: 100%;
+}
+
+.jumbotron{
+	background: url("../images/base.jpg") no-repeat;
+	background-size: cover;
+	min-height: 800px;
+}
+
+.navbar-default{
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 750;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+	color: #aaa;
+ }
+
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-color: transparent;
+    }
+
